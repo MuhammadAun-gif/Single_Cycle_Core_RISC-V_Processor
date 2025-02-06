@@ -1,5 +1,5 @@
 module program_counter(input clk, rst,
-                       input [31:0] PC_Next
+                       input [31:0] PC_Next,
                        output reg [31:0] PC);
   
     always @(posedge clk)
