@@ -10,7 +10,7 @@ module control_unit_top(input [6:0] Op, funct7,
     wire [1:0]ALUOp;
 
     main_decoder Main_Decoder(
-                .Op(Op),
+                .op(Op),
                 .RegWrite(RegWrite),
                 .ImmSrc(ImmSrc),
                 .MemWrite(MemWrite),
