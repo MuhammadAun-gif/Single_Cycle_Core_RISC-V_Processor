@@ -58,10 +58,10 @@ module single_cycle_top(input clk, rst);
         .B(ImmExt_op),
         .ALUControl(ALUControl_top),
         .Result(ALUResult),
-        .Z(),
-        .N(),
-        .V(),
-        .C()
+        .Zero(),
+        .Negative(),
+        .OverFlow(),
+        .Carry()
     );
 
     control_unit_top control_Top(
