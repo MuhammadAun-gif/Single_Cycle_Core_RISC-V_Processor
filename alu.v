@@ -1,6 +1,6 @@
 module alu(input [31:0] A,B,
             input [2:0] ALUControl,
-            input OverFlow,Carry,Zero,Negative
+            input OverFlow,Carry,Zero,Negative,
            output [31:0] Result);
     
     wire Cout;
